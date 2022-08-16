@@ -15,7 +15,7 @@ public class AppleTest {
         System.out.println(inventory);
         System.out.println();
 
-        List<Apple> heavyApple = filterApples(inventory, new AppleGreenColorPredicate());
+        List<Apple> heavyApple = filterApples(inventory, new AppleHeavyPredicate());
         System.out.println(heavyApple);
         List<Apple> greenApple = filterApples(inventory, new AppleGreenColorPredicate());
         System.out.println(greenApple);
