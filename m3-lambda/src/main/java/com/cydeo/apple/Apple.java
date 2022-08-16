@@ -1,14 +1,14 @@
-package com.cydeo.task;
+package com.cydeo.apple;
 
-import com.cydeo.Color;
 import lombok.*;
+
 
 @AllArgsConstructor
 @Getter
 @Setter
 @ToString
 
-public class Orange {
+public class Apple {
 
     private int weight;
     private Color color;

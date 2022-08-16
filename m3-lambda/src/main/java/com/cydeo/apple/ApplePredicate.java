@@ -1,4 +1,4 @@
-package com.cydeo;
+package com.cydeo.apple;
 
 @FunctionalInterface//to check if it's functional interface
 public interface ApplePredicate {

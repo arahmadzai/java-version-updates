@@ -1,6 +1,6 @@
-package com.cydeo.task;
+package com.cydeo.orange;
 
-import com.cydeo.Color;
+import com.cydeo.apple.Color;
 
 import java.util.ArrayList;
 import java.util.List;
