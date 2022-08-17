@@ -15,6 +15,8 @@ public class AppleTest {
         System.out.println(inventory);
         System.out.println();
 
+        inventory.forEach(apple -> System.out.println(apple)); //lambda expression for each loop
+
         List<Apple> heavyApple = filterApples(inventory, new AppleHeavyPredicate());
         System.out.println(heavyApple);
         List<Apple> greenApple = filterApples(inventory, new AppleGreenColorPredicate());
