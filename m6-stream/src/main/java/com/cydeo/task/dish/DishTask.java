@@ -1,6 +1,4 @@
-package com.cydeo.task;
-
-import java.util.Comparator;
+package com.cydeo.task.dish;
 
 import static java.util.Comparator.comparing;
 
