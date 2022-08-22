@@ -15,8 +15,15 @@
         <module>m4-double_colon_operators</module>
         <module>m5-comparator_interface</module>
         <module>m6-stream</module>
+        <module>m7-optional-bigdecimal</module>
     </modules>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+        </dependency>
+    </dependencies>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
