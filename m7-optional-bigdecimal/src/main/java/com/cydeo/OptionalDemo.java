@@ -1,5 +1,7 @@
 package com.cydeo;
 
+import com.cydeo.java9.FactoryMethodsDemo;
+
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
@@ -30,7 +32,8 @@ public class OptionalDemo {
         //orElse
         System.out.println(bigNumber.orElse(5));
 
-
+// dependency from m8 imported to m7
+        FactoryMethodsDemo f1 = new FactoryMethodsDemo();
 
 
     }
