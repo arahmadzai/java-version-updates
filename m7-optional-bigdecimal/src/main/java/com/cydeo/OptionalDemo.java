@@ -1,5 +1,6 @@
 package com.cydeo;
 
+import com.cydeo.java10.Apple;
 import com.cydeo.java9.FactoryMethodsDemo;
 
 import java.math.BigDecimal;
@@ -34,6 +35,8 @@ public class OptionalDemo {
 
 // dependency from m8 imported to m7
         FactoryMethodsDemo f1 = new FactoryMethodsDemo();
+
+        Apple apple = new Apple();
 
 
     }
