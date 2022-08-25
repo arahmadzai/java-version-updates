@@ -46,7 +46,7 @@ public class StringMethodDemo {
         System.out.println("------------------------stripLeading()--------------------------");
 
 //      stringLeading() method returns a string whose value is string, with all leading white space removed.
-        var str8 = "\t    Abid    \u2005";
+        var str8 = "\t    Abid    \u1986";
         System.out.println(str8.stripLeading());
 
         System.out.println("------------------------stripTrailing()---------------------------");
@@ -54,6 +54,7 @@ public class StringMethodDemo {
 //      Returns a string whose value is string, with all trailing white space removed.
         var str9 = "\t    Abid    \u2005";
         System.out.println(str9.stripTrailing());
+
 
 
 
